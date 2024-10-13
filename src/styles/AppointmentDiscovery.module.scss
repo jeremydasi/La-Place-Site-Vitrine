@@ -1,0 +1,147 @@
+@import "./styles.global.module.scss";
+
+.menShakingHands {
+    position: absolute;
+    top: 1100px;
+    z-index: -10;
+}
+
+.backgroundGrey {
+    position: absolute;
+    top: 1100px;
+    background-image: url('./../assets/large-background-grey.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1250px;
+    z-index: -100;
+}
+
+.AppointmentDiscovery {
+    font-family: 'Outfit', sans-serif;
+}
+
+.containerAppointment {
+    display: flex;
+    justify-content: center;
+    
+    .appointment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('./../assets/rendezVous.svg');
+        width: 830px;
+        height: 400px;
+        border-radius: 15px;
+        margin-top: 150px;
+    
+        .title {
+            font-size: 40px;
+            margin-top: 94px;
+            color: white;
+        }
+    
+        .text {
+            width: 580px;
+            line-height: 32px;
+            font-size: 20px;
+            margin-top: 4px;
+            text-align: center;
+            color: white;
+        }
+    
+        .containerButton {
+            display: flex;
+            align-items: center;
+            margin-top: 24px;
+            width: 372px;
+            height: 56px;
+            border-radius: 8px;
+            font-size: 20px;
+            background-color: $orange;
+        }
+    
+    }
+}
+
+.h2Description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .h2 {
+        font-weight: 800;
+        font-size: 42px;
+        margin-top: 123px;
+    }
+
+    .description {
+        text-align: center;
+        width: 570px;
+        line-height: 35px;
+        margin-top: 13px;
+        font-size: 20px;
+    }
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .cup {
+        margin-top: 35.25px;
+        margin-left: 34px;
+    }
+
+    .cardsStyle {
+        width: 366px;
+        height: 436px;
+        border-radius: 20px;
+        background-color: white;
+
+        .titleCard {
+            width: 319px;
+            line-height: 48px;
+            margin-top: 26px;
+            margin-left: 24px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .textCard {
+            margin-top: 16px;
+            margin-left: 24px;
+            margin-right: 24px;
+            font-size: 20px;
+            line-height: 32px;
+            width: 318px;
+        }
+
+        .lowCard {
+            margin-top: 16px;
+            font-size: 16px;
+            margin-left: 24px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 48px;
+        width: 374px;
+        height: 56px;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: $purple;
+    }
+}

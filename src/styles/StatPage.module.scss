@@ -1,0 +1,40 @@
+.containerStat {
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+
+    .stat {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 171px;
+        width: 1196px;
+        height: 178px;
+        border-radius: 20px;
+        gap: 10px;
+        border: 1px solid #DEE1E6;
+
+        .pourcent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 700;
+            width: 86px;
+            height: 96px;
+            border-radius: 4px;
+            background-color: #E9ECF2;
+            margin-right: 18px;
+        }
+
+        .p {
+            display: flex;
+            align-items: center;
+            width: 243px;
+            height: 96px;
+            font-size: 20px;
+            color: #64607D;
+        }
+    }
+}

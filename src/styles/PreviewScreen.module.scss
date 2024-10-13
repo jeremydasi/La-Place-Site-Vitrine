@@ -1,0 +1,57 @@
+@import "./styles.global.module.scss";
+
+.previewScreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Outfit', sans-serif;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            width: 646px;
+            line-height: 80px;
+            font-size: 60px;
+            margin-left: 121px;
+            margin-top: 154px;
+            margin-bottom: 12px;
+            color: #222831;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            width: 625px;
+            line-height: 32px;
+            margin-left: 121px;
+            margin-bottom: 29px;
+            font-size: 20px;
+            color: #575D66;
+        }
+
+        .containerButton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 121px;
+            margin-bottom: 29px;
+            width: 241px;
+            height: 56px;
+            border-radius: 8px;
+            font-size: 20px;
+            background-color: $neutral-500;
+            cursor: pointer;
+        }
+
+        .bottom {
+            display: flex;
+            gap: 6px;
+            margin-left: 121px;
+        }
+    }
+   
+    .smartphones {
+        margin-top: 90px;
+        margin-left: auto;
+    }
+}

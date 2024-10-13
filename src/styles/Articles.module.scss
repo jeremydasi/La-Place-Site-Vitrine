@@ -1,0 +1,52 @@
+@import "./styles.global.module.scss";
+
+.Articles {
+    margin-top: 260px;
+    display: grid;
+    grid-template-columns: 1186px 356px;
+    grid-column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(1186px + 356px);
+
+    .left {
+        .title {
+            font-size: 42px;
+            font-weight: 800;
+            font-family: 'Manrope', sans-serif;
+            line-height: 52px;
+            letter-spacing: -1px;
+            margin-bottom: 55px;
+        }
+
+        .containerLargeArticles {
+            display: grid;
+            grid-template-columns: 378px 378px 378px;
+            grid-column-gap: 24px;
+        }
+    }
+
+    .right {
+        .containerButton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 231px;
+            height: 56px;
+            border-radius: 8px;
+            font-size: 20px;
+            background-color: $purple;
+            font-family: 'Outfit', sans-serif;
+            cursor: pointer;
+            margin-left: auto;
+            margin-bottom: 55px;
+        }
+
+        .containerSmallArticles {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 26px;
+        }
+    }
+}

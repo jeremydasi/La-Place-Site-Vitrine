@@ -1,0 +1,70 @@
+@import "./styles.global.module.scss";
+
+.containerDownload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+
+    .backgroundDownload {
+        position: absolute;
+        top: 3200px;
+    }
+
+    .mobile {
+        font-size: 14px;
+        margin-top: 287px;
+        color: $purple;
+    }
+    
+    .title {
+        width: 701px;
+        line-height: 48px;
+        font-size: 30px;
+        margin-top: 19px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .subTitle {
+        font-size: 20px;
+        margin-top: 23px;
+        font-family: 'Manrope', sans-serif;
+        color: $dark-blue;
+    }
+
+    .containerButtons {
+        display: flex;
+        gap: 11px;
+        margin-top: 29px;
+
+        .containerButtonPurple {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 210px;
+            height: 55px;
+            border-radius: 47px;
+            font-size: 16px;
+            gap: 11px;
+            background-color: $purple;
+            cursor: pointer;
+        }
+        
+        .containerButtonBlack {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 178px;
+            height: 53px;
+            border-radius: 47px;
+            font-size: 16px;
+            gap: 11px;
+            padding: none;
+            background-color: $neutral-500;
+            cursor: pointer;
+        }
+    }
+}

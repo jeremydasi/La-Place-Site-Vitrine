@@ -1,0 +1,40 @@
+@import "./styles.global.module.scss";
+
+@mixin input-basic {
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 8px;
+}
+
+@mixin label-basic {
+    margin-top: 24px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.CustomInput {
+    @include input-basic;
+    border: 1px solid $La-Place-Neutral-100;
+}
+
+.CustomInputError {
+    @include input-basic;
+    border: 1px solid red;
+}
+
+
+
+.CustomLabel {
+    @include label-basic;
+}
+
+.CustomLabelError {
+    @include label-basic;
+    color: red;
+}
+
+.CustomInputContainer {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,73 @@
+@import "./styles.global.module.scss";
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+
+        .icon {
+            margin-left: 88px;
+            margin-top: 40px;
+        }
+    }
+
+    .center {
+        display: flex;
+        gap: 36px;
+        margin-top: 43px;
+        font-size: 16px;
+    
+        a {
+            font-size: 16px;
+            text-decoration: none;
+            color: #222831;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        width: 300px;
+        margin-top: 31px;
+        font-size: 14px;
+    }
+}
+
+.Image {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.containerModal {
+    width: 480px;
+    height: 380px;
+
+    .form {
+        margin-left: 32px;
+        margin-right: 32px;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+
+            > * {
+                width: 48%;
+            }
+        }
+
+        .containerButton {
+            width: 416px;
+            height: 56px;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+    }
+}

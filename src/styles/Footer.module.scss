@@ -1,0 +1,85 @@
+@import "./styles.global.module.scss";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 411px;
+
+    .tittle {
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .text {
+        width: 180px;
+        line-height: 28px;
+        font-size: 16px;
+        margin-top: 23px;
+        color: $dark-purple;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 15.99px;
+        margin-top: 30px;
+    }
+
+    .informations {
+        margin-top: 18px;
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .ressources {
+        margin-top: 12px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: row;
+    
+        .input {
+            font-size: 16px;
+            width: 240px;
+            height: 52px;
+        }
+
+        .containerButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            background-color: $purple;
+            width: 149px;
+            height: 52px;
+        }
+    }
+
+    .textSubscribe {
+        width: 329px;
+        line-height: 26px;
+        font-size: 16px;
+        margin-top: 21px;
+        color: $black;
+    }
+}
+
+.hr {
+    width: 1650px;
+    margin-top: 84px;
+    color: $light-gray;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}

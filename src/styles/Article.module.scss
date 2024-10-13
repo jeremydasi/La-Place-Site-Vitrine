@@ -1,0 +1,64 @@
+@import "./styles.global.module.scss";
+
+.largeArticle {
+    width: 378px;
+    .category {
+        padding: 4px 4px;
+        border-radius: 4px;
+        color: 8295E4;
+        background-color: #D7DFFF;
+        margin-top: 14px;
+        font-family: 'Outfit', sans-serif;
+        width: fit-content;
+    }
+    
+    .title {
+        width: 378px;
+        line-height: 36px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 11px;
+        font-family: 'Manrope', sans-serif;
+    }
+    
+    .subTitle {
+        width: 365px;
+        line-height: 30px;
+        font-size: 16px;
+        color: $dark-blue;
+        margin-top: 8px;
+        text-align: justify;
+        font-family: 'Manrope', sans-serif;
+    }
+}
+
+.smallArticle {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #DEE1E6;
+
+    .rightText {
+        margin-left: 16px;
+
+        .rightCategory {
+            color: $dark-blue;
+            font-family: 'Outfit', sans-serif;
+        }
+    
+        .rightTitle {
+            width: 230px;
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 800;
+            font-family: 'Manrope', sans-serif;
+        }
+    }
+
+    .hr {
+        width: 370px;
+        margin-top: 26px;
+        margin-bottom: 27px;
+        color: $gray;
+    }
+}

@@ -1,0 +1,84 @@
+@import "./styles.global.module.scss";
+
+@mixin button-basic {
+    border-radius: 8px;
+    cursor: pointer !important;
+
+    a {
+        text-decoration: none;
+        color: #222831;
+    }
+
+        // TODO Design waiting
+        // visibility: hidden;
+}
+
+.button {
+    @include button-basic;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98px;
+    height: 48px;
+    font-size: 14px;
+    border: 1px solid #C8CED7;
+
+    // TODO
+    visibility: hidden
+}
+
+.buttonBlack {
+    @include button-basic;
+
+    background-color: $neutral-500;
+    border-radius: 8px;
+
+    a {
+        color: white
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 48px;
+}
+
+.buttonPurple {
+    @include button-basic;
+
+    border-radius: 8px;
+    background-color: $purple;
+
+    a {
+        color: white;
+    }
+}
+
+.buttonOrange {
+    @include button-basic;
+
+    border-radius: 8px;
+    padding: 12px 24px;
+    background-color: $orange;
+
+    a {
+        color: white;
+    }
+}
+
+.buttonModal {
+    background-color: $neutral-500;
+    border-radius: 8px;
+    
+    a {
+        color: white
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 416px;
+    height: 56px;
+}

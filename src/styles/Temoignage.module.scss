@@ -1,0 +1,64 @@
+@import "./styles.global.module.scss";
+
+.p {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    font-size: 14px;
+    color: #8295E4;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 40px; 
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+
+.containerTemoignage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 42px;
+    font-family: 'Manrope', sans-serif;
+
+    .notation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 114px;
+    }
+
+    .comment {
+        margin-top: 20px;
+        font-weight: 700;
+        width: 554px;
+        line-height: 41px;
+        font-size: 30px;
+    }
+}
+
+.containerName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 47px;
+
+    .name {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .ceo {
+        color: $dark-purple;
+        font-size: 16px; 
+     }
+
+    .segment {
+        display: flex;
+        align-items: center;
+    }
+}

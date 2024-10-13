@@ -1,0 +1,12 @@
+@import "./styles.global.module.scss";
+
+.CustomModal {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+
+    width: 480px;
+    height: 350px;
+    background-color: red;
+}

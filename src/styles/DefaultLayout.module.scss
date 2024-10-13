@@ -1,0 +1,16 @@
+.defaultLayout {
+    max-width: 1542px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    .waveCloud {
+        position: absolute;
+        left: 0px;
+        top: -50px;
+    }
+
+    img {
+        z-index: -100;
+    }
+}
